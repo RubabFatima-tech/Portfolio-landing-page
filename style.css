@@ -1,0 +1,185 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+h1, h2, h3, p {
+  margin: 10px 0;
+}
+
+/* Header Section */
+.header {
+  background-color: #0073e6;
+  color: white;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+}
+
+.header p {
+  font-size: 1.2rem;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 50px 0;
+  background-color: #e9ecef;
+}
+
+.hero h2 {
+  font-size: 2rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.hero img {
+  width: 70%;
+  max-width: 700px;
+  height: 300%;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+/* About Section */
+.about {
+  padding: 50px 0;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.about h2 {
+  font-size: 2rem;
+}
+
+.about p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.about img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+/* Projects Section */
+.projects {
+  padding: 50px 0;
+  background-color: #f8f9fa;
+}
+
+.projects h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.project-gallery {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.project-gallery img {
+  width: 30%;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+/* Testimonials Section */
+.testimonials {
+  padding: 50px 0;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.testimonials h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.testimonials p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.testimonials img {
+  width: 80%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+/* Contact Section */
+.contact {
+  padding: 50px 0;
+  background-color: #e9ecef;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.contact p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.contact img {
+  width: 80%;
+  max-width: 600px;
+  height: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+/* Contact Buttons */
+.contact-buttons {
+  margin-top: 20px;
+}
+
+.contact-buttons a {
+  text-decoration: none;
+  color: white;
+  background-color: #0073e6;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  display: inline-block;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.contact-buttons a:hover {
+  background-color: #005bb5;
+}
+
+/* Footer */
+footer {
+  background-color: #0073e6;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
